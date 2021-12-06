@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+  background-image: url(/img/tur.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  border-radius: 15px;
+ }
+
+.row {
+  display: flex;
+}
+.row .col-25 {
+  flex: 0 0 25%;
+}
+.row .col-25 .col-img {
+  flex: 100%;
+  padding: 10px 0 0 10px;
+}
+.row .col-75 {
+  flex: 0 0 75%;
+}
+.row .col-75 nav ul {
+  flex: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+  margin: 0;
+}
+.row .col-75 ul {
+  list-style-type: none;
+}
+.row .col-75 ul a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
